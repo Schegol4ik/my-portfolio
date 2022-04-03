@@ -1,0 +1,32 @@
+.wrapper__header{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    .header__titles{
+        padding: 30px 3px;
+
+        a{
+            color: #828282;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            &:hover {
+                color: black;
+            }
+
+            &:active{
+                color: black;
+            }
+        }
+
+    }
+
+
+}
+
+@media screen and (max-width: 991px){
+    .wrapper__header{
+        display: none;
+    }
+}

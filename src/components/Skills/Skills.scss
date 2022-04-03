@@ -1,0 +1,28 @@
+.wrapper__skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  .skills__title{
+    padding-bottom: 60px;
+    line-height: 2;
+    h1{
+      font-size: 34px;
+      font-weight: 500;
+    }
+  }
+  .skills__list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      font-style: oblique;
+      line-height: 1.5;
+      &:before{
+        content: '💪 ';
+      }
+    }
+  }
+}
