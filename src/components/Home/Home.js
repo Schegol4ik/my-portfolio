@@ -13,7 +13,6 @@ const Home = ({lang, handleLanguage, isMenu, handleMenu}) => {
     const [currentLang, setCurrentLang] = useState(0)
 
     return (
-        <a name='home'>
             <div className='wrapper__home'>
                 <div className='home__content_text'>
                     <div className='home__me'>
@@ -51,7 +50,6 @@ const Home = ({lang, handleLanguage, isMenu, handleMenu}) => {
                             setCurrentLang={setCurrentLang}
                             lang={lang} currentLang={currentLang}/>
             </div>
-        </a>
     );
 };
 

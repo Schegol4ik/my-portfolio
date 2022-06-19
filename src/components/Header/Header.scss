@@ -1,11 +1,13 @@
 .wrapper__header{
-    position: sticky;
+    position: fixed;
+    width: 69%;
     display: flex;
     justify-content: space-between;
     background-color: white;
+    z-index: 100;
+
     .header__titles{
         padding: 30px 3px;
-
         a{
             color: #828282;
             font-size: 18px;
